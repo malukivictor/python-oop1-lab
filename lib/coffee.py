@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 class Coffee:
     def __init__(self, size, price):
         self.size = size
@@ -17,5 +15,5 @@ class Coffee:
             print("size must be Small, Medium, or Large")
 
     def tip(self):
-        print("coffee is great, here's a tip!")
+        print("This coffee is great, here’s a tip!")
         self.price += 1
